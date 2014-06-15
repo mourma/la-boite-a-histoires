@@ -1,7 +1,11 @@
 var keypress = require('keypress');
-var app = require('express')();
+var express = require('express');
+var app = express();
 var http = require('http').Server(app);
 var io = require('socket.io')(http);
+
+
+app.use('/assets', express.static(__dirname + '/assets'));
 
 app.get('/', function(req, res){
   res.sendfile('index.html');
@@ -20,9 +24,8 @@ keypress(process.stdin);
 
 // listen for the "keypress" event
 process.stdin.on('keypress', function (ch, key) {
-  if (key && key.name == 'c') {
-	console.log('toto');
-	io.emit('story event', 'test');
+  if (key) {
+	io.emit('story event', key.name);
   }
   if (key && key.ctrl && key.name == 'c') {
     process.stdin.pause();
