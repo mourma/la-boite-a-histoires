@@ -12,14 +12,27 @@
       #messages li { padding: 5px 10px; }
       #messages li:nth-child(odd) { background: #eee; }
     </style>
+	<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap-theme.min.css">
+<link rel="stylesheet" href="/assets/style.css">
+
+
+<!-- Latest compiled and minified JavaScript -->
   </head>
   <body>
+	<div id="container">
+		<button type="button" class="btn btn-primary btn-xs" id="change_univers">Changer</button>
+		<div id="content">
+		
+		</div>	
+	</div>
+	<script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-2.1.1.js"></script>
 	<script src="/socket.io/socket.io.js"></script>
-<script>
-  var socket = io('http://192.168.100.57:3000');
- socket.on('story event', function(msg){
-		document.write(msg);
-	});
-</script>
+	<script src="/assets/script.js"></script>
+	<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+
   </body>
 </html>
