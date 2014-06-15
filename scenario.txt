@@ -1,0 +1,49 @@
+Démarrage :
+- A : noir
+- B : noir
+- T : logo de l'application
+
+On clique sur la tablette
+- A : noir avec cible
+- B : noir
+- T : même écran
+
+On pose le personnage
+- A : 1ere map
+- B : 1e map
+- T : 1er slide JPEG
+
+Sur le 1er slide, on clique sur le JPEG
+- A : 2e univers
+- B : 2e univers
+- T : 2e slide JPEG
+
+Je clique sur le 2e slide, ca joue un son puis :
+- A : pas de changement
+- B : 3e image
+- C : pas de changement
+
+Je pose l'ours sur le plateau
+- A : pas de changement
+- B : pas de changement
+- T : 3e slide JPEG
+
+Je clique sur la tablette 
+- A : pas de changement
+- B : pas de changement
+- T : 4e slide JPEG
+
+Je clique sur la tablette
+- A : 4e image
+- B : 4e image
+- T : 5e slide JPEG
+
+Je clique sur la tablette
+- A : 5e image
+- B : 5e image
+- T : 6e slide JPEG
+
+Je clique sur la tablette
+- A : 6e image
+- B : 6e image
+- T : 7e slide JPEG
