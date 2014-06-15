@@ -1,0 +1,17 @@
+{
+	"slides_map" : {
+		"right" : 1,
+		"left" : 0
+	},
+  "slides" : [
+    {
+      "image" : "/assets/img/titre.png",
+	  "page" : false
+    },
+	{
+		"image" : false,
+		"ajax" : true,
+		"page" : "/assets/html/1.html"
+	}
+    ]
+}
