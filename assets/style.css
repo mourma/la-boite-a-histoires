@@ -1,0 +1,16 @@
+#container {
+	background-size: 100% 100%;
+}
+#conte {
+	margin: 0 auto;
+	padding-top:150px;
+	width: 75%;
+}
+#change_univers {
+	position:absolute;
+	bottom:0;
+	right:0
+}
+#video1 {
+	background:Black;
+}
