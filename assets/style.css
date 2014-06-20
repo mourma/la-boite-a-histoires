@@ -3,14 +3,29 @@
 }
 #conte {
 	margin: 0 auto;
-	padding-top:150px;
 	width: 75%;
+	background: white;
+background-position: 150px 0;
+padding: 5px 40px 20px;
+position: relative;
+top: 150px;
 }
 #change_univers {
 	position:absolute;
 	bottom:0;
 	right:0
 }
-#video1 {
+#video1 #container{
 	background:Black;
+}
+#content {
+	height:100%;
+}
+#loader {
+	position:relative;
+	top:60%;
+	left:45%;
+}
+.video #container #content img {
+	width:100%;
 }
