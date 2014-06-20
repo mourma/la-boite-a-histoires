@@ -24,7 +24,7 @@ io.on('connection', function(socket){
 });
 
 http.listen(3000, function(){
-  console.log('listening on *:3000');
+  console.log('En attente sur *:3000');
 });
 
 // make `process.stdin` begin emitting "keypress" events
