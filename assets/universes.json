@@ -1,17 +1,14 @@
 {
-	"slides_map" : {
-		"right" : 1,
-		"left" : 0
-	},
-  "slides" : [
-    {
-      "image" : "/assets/img/titre.png",
-	  "page" : false
-    },
-	{
-		"image" : false,
-		"ajax" : true,
-		"page" : "/assets/html/1.html"
-	}
-    ]
+	"universes" : [
+		{
+			"video1" : "/assets/img/video1_0.png",
+			"video2" : "/assets/img/video2_0.png",
+			"page" : "/assets/html/1.html"
+		},
+		{
+			"video1" : "/assets/img/video1_1.png",
+			"video2" : "/assets/img/video2_1.png",
+			"page" : "/assets/html/2.html"
+		}
+	]
 }
