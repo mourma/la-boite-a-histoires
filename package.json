@@ -1,8 +1,15 @@
 {
-  "name": "story-factory",
+  "name": "la-boite-a-histoires",
+  "description": "Projet réalisé dans le cadre de l'atelier Objets connectés 2 (14 et 15 juin 2014)",
+  "author": "Samy Rabih <contact@lahaut.info> (collectif)",
   "version": "0.0.1",
   "dependencies": {
     "express": "^4.4.3",
+    "keypress": "^0.2.1",
     "socket.io": "^1.0.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/samy/la-boite-a-histoires.git"
   }
 }
